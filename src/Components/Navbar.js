@@ -1,33 +1,42 @@
 export default function Navbar() {
     return (
-        <ul>
-            <li>
-                Home
+        <div >
+            <div className="navlinks">
+                <ul >
+                    <li>
+                        Home
 
-            </li>
-            <li>
-                About Us
+                    </li>
+                    <li>
+                        About Us
 
-            </li>
-            <li>
-                Safety
+                    </li>
+                    <li>
+                        Safety
 
-            </li>
-            <li>
-                Careers
+                    </li>
+                    <li>
+                        Careers
 
-            </li>
-            <li>
-                Blog
+                    </li>
+                    <li>
+                        Blog
 
-            </li>
-            <li>
-                Press
+                    </li>
+                    <li>
+                        Press
 
-            </li>
-            <li>
-                Contact Us
-            </li>
-        </ul>
+                    </li>
+                    <li>
+                        Contact Us
+                    </li>
+                    <li>
+                        <button>
+                            Download App
+                        </button>
+                    </li>     
+                </ul>
+            </div>
+        </div>
     )
 }
